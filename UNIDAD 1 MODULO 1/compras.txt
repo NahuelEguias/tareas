@@ -2,3 +2,6 @@ banana
 manzana
 frutilla
 durazno
+lavandina
+detergente
+papel higienico
