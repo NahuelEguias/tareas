@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <title>SEGUROS EGUIAS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/cerveceria.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">SEGUROS EGUIAS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Servicios</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Compañías
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">SMG Seguros</a></li>
+                            <li><a class="dropdown-item" href="#">Victoria Seguros</a></li>
+                            <li><a class="dropdown-item" href="#">Beneficio Seguros</a></li>
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div id="home" class="row align-items-center hero">
+            <div class="col-lg-3 offset-lg-2">
+                <p>Bajada</p>
+                <h1>EGUIAS NAHUEL NICOLAS</h1>
+                <p>Productor Asesor de Seguros</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!--inicio novedades-->
+    <div class="row my-3">;
+        <div id="novedades" class="col-md-5 offset-md-2 py-3">
+            <h2>Novedades</h2>
+            <ul class="lista novedades">
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="img/novedades01.jpg">
+                        Nuevas compañias 1</a></li>
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="img/novedades01.jpg">
+                        Nuevas compañias 2</a></li>
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="img/novedades01.jpg">
+                        Nuevas compañias 3</a></li>
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="img/novedades01.jpg">
+                        Nuevas compañias 4</a></li>
+            </ul>
+        </div> <!-- cierra novedades -->
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Compañ</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        SMG SEGUROS
+                    </div>
+                </div>
+            </div>
+        </div> <!--Fin Modal -->
+        <div class="col-md-3 my-3"> <!--Carousel de testimonios -->
+            <div class="rounded py-5 testimonios">
+                <h2 class="text-center">Testimonios</h2>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <h5>Trabajan con compañías muy confiables las cuales brindan seguridad al asegurar los
+                                bienes</h5>
+                            <p>Manuel, Ramos Mejía</p>
+                        </div>
+                        <div class="carousel-item">
+                            <h5>Responden los siniestros de manera efectiva y rápida</h5>
+                            <p>Lorena, CABA</p>
+                        </div>
+                        <div class="carousel-item">
+                            <h5>Tienen amplia variedad de coberturas para asegurarte correctamente</h5>
+                            <p>Carlos, Tortuguitas</p>
+                        </div>
+                        <div class="carousel-item">
+                            <h5>Excelente atención y resolución de problemas</h5>
+                            <p>Mariana, Ciudadela</p>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div> <!-- fin carousel testimonios -->
+    </div> <!-- cierra la fila de novedades y testimonios -->
+
+
+
+
+
+
+
+
+    <footer>
+        <p class="text-center">Diseñado por Nahuel Eguias</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
