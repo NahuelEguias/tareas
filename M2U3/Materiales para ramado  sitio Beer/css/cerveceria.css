@@ -1,16 +1,12 @@
 /*font-family: 'Alfa Slab One', cursive;*/
 
-footer {
-    background-color: grey;
-}
-
 h1,
 h2 {
     font-family: 'Alfa Slab One', cursive;
 }
 
 .hero {
-    background: url(../img/headerinsurance.jpg) no-repeat;
+    background: url(../img/header.jpg) no-repeat;
     background-size: cover;
     height: 0.5vh;
     min-height: 600px;
@@ -65,4 +61,25 @@ h2 {
 .testimonio {
     text-align: center;
     padding: 50px 20px;
+}
+
+.staff {
+    background-color: #efefef;
+}
+
+.mapa iframe{
+    width: 100%;
+    aspect-ratio: 1.2;
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+.scroll_section {
+    scroll-margin-top: 60px;
+}
+
+footer {
+    background-color: grey;
 }
